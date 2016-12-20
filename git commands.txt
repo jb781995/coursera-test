@@ -19,3 +19,11 @@ command prompt..
   - git add .
    
        ["." after the command specifies anything in this directory and below ]
+
+(5) to actually commit the file in the repository along with some message
+
+  - git commit -m "first change"
+
+(6) to upload our commits and anything on our repository that is ready to be commited.
+
+  - git push
