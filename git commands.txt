@@ -1,0 +1,21 @@
+(1) to change directory to coursera projects
+
+  - cd coursera-projects
+  - cd coursera-test
+
+(2) to sync with the browser we downloaded browsersync software.. we can use it through 
+command prompt..
+
+  -browser-sync start --server --directory --files "**/*"
+
+
+
+(3) to check git status
+ 
+  - git status
+
+(4) to commit changes whenever we save changes next time on to the git repository
+
+  - git add .
+   
+       ["." after the command specifies anything in this directory and below ]
