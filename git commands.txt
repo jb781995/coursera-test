@@ -20,10 +20,11 @@ command prompt..
    
        ["." after the command specifies anything in this directory and below ]
 
-(5) to actually commit the file in the repository along with some message
+(5) to actually commit the file in the repository along with some message..This commits changes
+ on ly to the local machine i.e within our computer
 
   - git commit -m "first change"
 
-(6) to upload our commits and anything on our repository that is ready to be commited.
+(6) to upload our commits and anything on our repository i.e on the github repository, we have to use push command
 
   - git push

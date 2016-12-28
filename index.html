@@ -1,8 +1,17 @@
-<html>
+<html ng-app="myFirstModule">
 <head>
 <title> angularJs page1</title>
+<script src="angular.min.js"> </script>
+<script src="app.js"> </script>>
 </head>
-<body>
-<h1> Hello Angular.. This is your angularjs course on coursera..I am excited about this course..</h1>
+<body ng-controller="NameCalculatorController">
+<h1> Name Calculator </h1>
+Your Name: <input type="text" 
+ng-model="name"
+ng-keyup="displayNumeric();">
+<div>
+<div> Total Numeric value of your name is:{{totalValue}}</div>
+{{name}}
+</div>
 </body>
 </html>

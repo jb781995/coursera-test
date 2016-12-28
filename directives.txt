@@ -1,0 +1,7 @@
+
+
+(1) ng-keyup: we can use this to trigger any fuc=nction whenever key is pressed and then released..
+(2) ng-model: binds html with variables of angular
+(3) ng-app
+(4) ng-controller
+()

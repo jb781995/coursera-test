@@ -1,0 +1,7 @@
+
+
+in angular we loop the same way as in java:
+
+for(var i=0;i<string.length;i++){
+stringValue + = someVariable.charCodeAt(i);
+}

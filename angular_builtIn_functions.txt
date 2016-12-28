@@ -1,0 +1,5 @@
+
+
+(1)charCodeAt(iterator):
+this built in method allows to get ascii value of a character from the 
+specified location of iterator
