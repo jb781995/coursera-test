@@ -9,6 +9,11 @@
 ng-model="name"
 ng-blur="upper();">
 </div>
+
+<div ng-controller="MessageController">
+{{name2}} has a message for you. </br>
+{{sayMessage()}}
+</div>
 </body>
 
 </html>
