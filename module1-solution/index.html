@@ -1,0 +1,17 @@
+<html ng-app="LunchCheck">
+<head>
+<title>Module1 Solution </title>
+<script src="angular.min.js"> </script>
+<script src="app.js"> </script>
+ </head>
+ <body ng-controller="CheckLunchController as clc">
+ <h1> Hello .. This is first Module </h1>
+ </body>
+ <p> Enter your Favourite Lunch items (Comma Seperated) </p> </br>
+ <input type="text" ng-model="items" />
+ <input type="button" value="check if too much" ng-click="clc.justChecker()" /> </br>
+ <div> {{items}}</div>
+ <div>
+ </div>
+ </body>
+</html>
